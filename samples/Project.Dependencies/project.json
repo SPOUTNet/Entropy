@@ -1,23 +1,23 @@
 {
-    "dependencies": {
-        "Newtonsoft.Json": "5.0.8",
-        "Project.ProjectReference": "1.0.0-*",
-        "Project.SharedFiles": "1.0.0-*"
+  "dependencies": {
+    "Newtonsoft.Json": "5.0.8",
+    "Project.ProjectReference": "1.0.0-*",
+    "Project.SharedFiles": "1.0.0-*"
+  },
+  "frameworks": {
+    "aspnet50": {
+      "frameworkAssemblies": {
+        "System.Web": ""
+      }
     },
-    "frameworks": {
-        "aspnet50": { 
-            "frameworkAssemblies": {
-                "System.Web": ""
-            }
-        },
-        "aspnetcore50" : {
-            "dependencies": {
-                "System.Console": "4.0.0-beta-*",
-                "System.Linq": "4.0.0-beta-*",
-                "System.Threading.Tasks": "4.0.10-beta-*",
-                "System.Runtime": "4.0.20-beta-*",
-                "System.Runtime.Extensions": "4.0.10-beta-*"
-            }
-        }
+    "aspnetcore50": {
+      "dependencies": {
+        "System.Console": "4.0.0-beta-22605",
+        "System.Linq": "4.0.0-beta-22605",
+        "System.Threading.Tasks": "4.0.10-beta-22605",
+        "System.Runtime": "4.0.20-beta-22605",
+        "System.Runtime.Extensions": "4.0.10-beta-22605"
+      }
     }
+  }
 }

@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "Microsoft.AspNet.FileSystems": "1.0.0-*",
-    "Microsoft.AspNet.Http": "1.0.0-*",
-    "Microsoft.AspNet.Server.IIS" : "1.0.0-*",
-    "Microsoft.Framework.ConfigurationModel": "1.0.0-*"
+    "Microsoft.AspNet.Http": "1.0.0-beta3",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta3",
+    "Microsoft.Framework.ConfigurationModel": "1.0.0-beta3"
   },
   "frameworks": {
-    "aspnet50": { },
-    "aspnetcore50" : { }
+    "aspnet50": {},
+    "aspnetcore50": {}
   }
 }
